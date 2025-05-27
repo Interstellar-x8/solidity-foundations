@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "data",
+				"name": "addCalculator",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,20 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "x",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
+				"name": "modCalculator",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"variableScopeExample.sol": "C"
+			"arithmeticOperators.sol": "operators"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"variableScopeExample.sol": {
-			"keccak256": "0x4ce280d969c19e1f21012c815e6ba2a033f3f477e193a777d03b5f9afdcab56c",
+		"arithmeticOperators.sol": {
+			"keccak256": "0x96d4111d42986002a778a8db36ff6c46cd71786e9a979750557b92cf9eacd400",
 			"urls": [
-				"bzz-raw://406268af9276f071a37fc0c11b44fa0ceec737b892d2f9640f8e85b99761092d",
-				"dweb:/ipfs/Qme8iMj19DLEdgpR1RsnCSp9WQJLR5fhveFtisnvRQSCMQ"
+				"bzz-raw://0da3e6a30f14419523066f8491dec934ac7144f9088d26a6eb1f4eef95f1d65b",
+				"dweb:/ipfs/QmaozhQiiXiuE1i6LxGSBshLAREib8r6Ae4nBwyTuxQSB9"
 			]
 		}
 	},
