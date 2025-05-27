@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "airDrop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"decisionMaking.sol": "decisionMaking"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"decisionMaking.sol": {
+			"keccak256": "0x7f0b04e473b29112482a4751e5aa07cd8f8ef005c2716708d4ab9b595f6d9fe1",
+			"urls": [
+				"bzz-raw://61a310d9670eca767745aef995b2d843d5cee60139af736dd2d8b8b29a9d3b05",
+				"dweb:/ipfs/QmdPHtFXhPPmLU3RC65f6K6QJeYdFs4DuJtjZZ68VX61Nk"
+			]
+		}
+	},
+	"version": 1
+}
