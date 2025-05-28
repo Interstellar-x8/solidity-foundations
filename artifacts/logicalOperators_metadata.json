@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addCalculator",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "modCalculator",
+				"name": "logic",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"operators.sol": "operators"
+			"operators.sol": "logicalOperators"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

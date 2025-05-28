@@ -7,27 +7,8 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addCalculator",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "modCalculator",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"name": "compare",
+				"outputs": [],
 				"stateMutability": "view",
 				"type": "function"
 			}
@@ -45,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"operators.sol": "operators"
+			"operators.sol": "comparisonOperators"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
