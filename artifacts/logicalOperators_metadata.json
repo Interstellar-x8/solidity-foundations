@@ -47,10 +47,10 @@
 	},
 	"sources": {
 		"operators.sol": {
-			"keccak256": "0x51bbd78b3e6f5174f39fe612faeb7676e2878790a6c7ea6844e27e7aa1cb6be8",
+			"keccak256": "0x227cfd2422fb124621b94d8962fe64218dbc27043412fbc17760fb9abd9ea166",
 			"urls": [
-				"bzz-raw://dd2e81f05283e0f783ea1a46ca0746ad4a3b149b6ed7e8072b0129bc11f19db0",
-				"dweb:/ipfs/QmbjrnMSy9yXCDMEeE786yruYoaBCJpMRpTjSiGupj52Ru"
+				"bzz-raw://99118de2b51095a52a323dfcaac9d8b7ed6b543c35e347d73d02b70551eff01e",
+				"dweb:/ipfs/QmYGHgU83J7W4XCdSaqXZnN6grZ11Dz1gp7WgnenD69zpF"
 			]
 		}
 	},

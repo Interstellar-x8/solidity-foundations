@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "Logic",
+				"name": "finalize",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"operators.sol": "exerciseTwo"
+			"operators.sol": "finalExercise"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

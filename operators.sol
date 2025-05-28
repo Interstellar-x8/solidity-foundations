@@ -74,3 +74,26 @@ contract exerciseTwo {
         }
 }
 
+// Exercise 3: 1. Initialize 3 state variables a, b, f - DONE
+// Create a function called finalize that is public and viewable which returns a local variable d - DONE
+// Initialize d to 23 - DONE  
+// return d in short handed assignment form to multiply itself by itself and then subtracted by b. - DONE *=
+// Make the function conditional so that it would only return the multiplication if a is greater than or equal to b and b is less than f.
+// Otherwise d should return 23.
+
+contract finalExercise {
+    uint a = 300;
+    uint b = 12;
+    uint f = 47;
+
+    function finalize() public view returns(uint) {
+       uint d = 23;
+       // short hand assignment
+        if(a > b && b < f) {
+            d *= d; 
+            return d - b;
+        } else {
+            return d;
+        }
+    } 
+}
