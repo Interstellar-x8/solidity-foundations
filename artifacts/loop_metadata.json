@@ -18,12 +18,50 @@
 						"type": "uint256"
 					}
 				],
-				"name": "checkMultiples",
+				"name": "checkMultipleValidity",
 				"outputs": [
 					{
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "checkMultiples",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbersList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -58,10 +96,10 @@
 	},
 	"sources": {
 		"loops.sol": {
-			"keccak256": "0xdec5ee6f8b8d26c3748c306bcbf13d12e6cf916373810fa2f31afb39f3f9e8fe",
+			"keccak256": "0xae9d9bf168fca80372301120afa9ca47af5d255023628aed2b1b7ef4a06dce09",
 			"urls": [
-				"bzz-raw://ce80f9fa0c3337b444c6730c634eaf5edb58656bd5eb16e51f820f39f9192c18",
-				"dweb:/ipfs/QmNo7WTMFMWXGdoLQV2yNqaUCuhv1iqpnjMwWrwXJyAXe4"
+				"bzz-raw://c93a6d47e030ad1d8bb17649d33c42e31e8db5b3dc450bce66f4e2cfdac16de0",
+				"dweb:/ipfs/QmVyAUpjLiQifV3ky65tSvSrqHGnebLj6Am6bo3e1XkZU9"
 			]
 		}
 	},
