@@ -6,62 +6,32 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "evenNumbersLoop",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_nums",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "checkMultipleValidity",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "userNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "numbersListLoop",
 				"outputs": [
 					{
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "checkMultiples",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "numbersList",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -81,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "loop"
+			"loops.sol": "myLoopingPracticeContract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
