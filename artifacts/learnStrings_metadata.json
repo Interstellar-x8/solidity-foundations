@@ -73,10 +73,10 @@
 	},
 	"sources": {
 		"strings.sol": {
-			"keccak256": "0xfac34161887024c6d0488fc4b81980ef00530dc640d298cc7dd4fbb9b0370441",
+			"keccak256": "0xe6a59bdf3cc6df10668007d9447816f6d085dcee54852e8efc92bb1895336b46",
 			"urls": [
-				"bzz-raw://70a89eda98704414b45603db4a3690ea7450dfbedfb1ed7c40d35271f36b3164",
-				"dweb:/ipfs/QmUABUU8DLXTm7jbDUSgm3WUi5veQJmAcCdYxokx9FedC4"
+				"bzz-raw://d4e8a7f35360c361e2a7d63125a6c484606a0a311a0f497223cd1608b046a339",
+				"dweb:/ipfs/QmVUzBisvyxXWRNJMrQrj9wZF8aunyZx5E7sXUKeqk5QnK"
 			]
 		}
 	},
