@@ -9,5 +9,16 @@ contract learnStrings {
     }
 
 
+    function changeGreeting(string memory _change) public {
+        greetings = _change;
+    }
 
+    // strings in solidity are too expensive computationally to get length.
+    function getChar() public view returns(uint) {
+        // return greetings.length;
+        // convert string to bytes to return the length.
+        // bytes are the basic unit of measurement in computer processing. 
+        bytes memory stringToBytes = bytes(greetings);
+        return stringToBytes.length;
+    }
 }
