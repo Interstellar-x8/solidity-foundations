@@ -9,6 +9,19 @@
 				"inputs": [
 					{
 						"internalType": "string",
+						"name": "_changes",
+						"type": "string"
+					}
+				],
+				"name": "changeFavoriteColor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
 						"name": "_change",
 						"type": "string"
 					}
@@ -26,6 +39,32 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCharLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myFavoriteColor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -73,10 +112,10 @@
 	},
 	"sources": {
 		"strings.sol": {
-			"keccak256": "0xe6a59bdf3cc6df10668007d9447816f6d085dcee54852e8efc92bb1895336b46",
+			"keccak256": "0xe45aa29ee4e8147535e009fec96b3f6113eba3d4efd57c9ef4e9d64b76b0e738",
 			"urls": [
-				"bzz-raw://d4e8a7f35360c361e2a7d63125a6c484606a0a311a0f497223cd1608b046a339",
-				"dweb:/ipfs/QmVUzBisvyxXWRNJMrQrj9wZF8aunyZx5E7sXUKeqk5QnK"
+				"bzz-raw://062343e1d76462f5f64ca706e94c874e3533fe87645d7a608eb24974a82774d2",
+				"dweb:/ipfs/QmQADrreJ2Qn1zSbVoa4fasUBN1DuTKVYTFoD6gGJi1Sy3"
 			]
 		}
 	},
