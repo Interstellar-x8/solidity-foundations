@@ -8,13 +8,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "_data",
 						"type": "uint256"
 					}
 				],
@@ -35,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructors.sol": "member"
+			"constructors.sol": "base"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

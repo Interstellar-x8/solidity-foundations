@@ -38,3 +38,24 @@ contract teacher is member // ('Garfield', 17)
         return name;
     }
 }
+
+/* Exercise:
+
+1. Create a contract called Base which stores fully accessible (inside and outside) integer data upon deployment
+2. Create a contract called Dervied which derives data from Base and runs a function that always outputs the data to the number 5
+
+*/
+
+contract base {
+    uint data;
+    constructor(uint _data) public {
+        data = _data;
+    }
+}
+
+contract derived is base (5)
+{
+    function getData() public view returns(uint) {
+        return data;
+    }
+}

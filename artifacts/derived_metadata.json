@@ -6,20 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -35,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructors.sol": "member"
+			"constructors.sol": "derived"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
