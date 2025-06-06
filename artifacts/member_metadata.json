@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constructors.sol": "member"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constructors.sol": {
+			"keccak256": "0xb039403f1d42fa23358a409da033d218efc48b99e104b71d2a4c71847b8cbd34",
+			"urls": [
+				"bzz-raw://a6d369d4a73eac8dccca63a8ff415e24d2f7d3b68d067c5cc538a946eca080d3",
+				"dweb:/ipfs/QmbHq2ragKnXyZ9CwE9kvxD2YGuVHLzuKff5937VSDoR7d"
+			]
+		}
+	},
+	"version": 1
+}
