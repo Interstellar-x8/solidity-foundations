@@ -27,6 +27,14 @@ contract learnArrays {
         return myArray.length;
     }
 
+
+
+    function remove(uint i) public {
+        // delete items from myArray example. note - we're not changing the length, just the value.
+        // i = 0
+        delete myArray[i]; 
+    }
+
 }
 
     

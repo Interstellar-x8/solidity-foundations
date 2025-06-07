@@ -94,6 +94,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -124,10 +137,10 @@
 	},
 	"sources": {
 		"arrays.sol": {
-			"keccak256": "0x28b72331a2b3597f51fc03b4e8b6cda0136b85c784c24d4f452ea36ddcc2a79f",
+			"keccak256": "0x85829d58a03fb8d4e819350533f4e468433de7b6ccfd2e1cf28f7c8f6cb9a474",
 			"urls": [
-				"bzz-raw://9326a039cbf77b20c3e002a95022ff715d839c22707d298bbdfc2760753c6b92",
-				"dweb:/ipfs/QmesY9da3KviPpzbwDyeowN2fv6GTQeVwS7HLgtZcvTaNo"
+				"bzz-raw://fbcf8725042f4f07e3c776edba3906a163c2df2b34919f3622e5e12f7ad89010",
+				"dweb:/ipfs/QmYpjBXFHcp7bqf6iYfQoez8m9Ujc81g4i3Kfv8Pes2xWY"
 			]
 		}
 	},
