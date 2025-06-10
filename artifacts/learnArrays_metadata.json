@@ -6,6 +6,38 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "changeArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getChangeArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getLength",
 				"outputs": [
@@ -107,6 +139,26 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "removeElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -137,10 +189,10 @@
 	},
 	"sources": {
 		"arrays.sol": {
-			"keccak256": "0x85829d58a03fb8d4e819350533f4e468433de7b6ccfd2e1cf28f7c8f6cb9a474",
+			"keccak256": "0xcc022570bb4f009e6e77b001a96012176e39184b0d39a8adfc0137004636618b",
 			"urls": [
-				"bzz-raw://fbcf8725042f4f07e3c776edba3906a163c2df2b34919f3622e5e12f7ad89010",
-				"dweb:/ipfs/QmYpjBXFHcp7bqf6iYfQoez8m9Ujc81g4i3Kfv8Pes2xWY"
+				"bzz-raw://125c43ee9a1dfa661ee00fa21791daecf2a859c65602229dc646e3dce94b7d14",
+				"dweb:/ipfs/QmTYGaKyYPi8zCPcSJcGPLBk6DddphnYpjKTRwEsKUA6oB"
 			]
 		}
 	},
