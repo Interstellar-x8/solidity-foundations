@@ -10,7 +10,7 @@
 				"name": "getChoice",
 				"outputs": [
 					{
-						"internalType": "enum learnEnums.frenchFriesSize",
+						"internalType": "enum learnEnums.shirtColor",
 						"name": "",
 						"type": "uint8"
 					}
@@ -23,9 +23,9 @@
 				"name": "getDefaultChoice",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum learnEnums.shirtColor",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -33,7 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "setSmall",
+				"name": "setWhite",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -67,10 +67,10 @@
 	},
 	"sources": {
 		"enums.sol": {
-			"keccak256": "0x6480f37b80b23b4bc582f27dc121c3f9b8842af83636b4a3dbaf70dbaf8b5284",
+			"keccak256": "0x3aa8912e602c246b51318599b4f49b4f4bc5129edb96843af6f04824678034c6",
 			"urls": [
-				"bzz-raw://634d20e63c878f4da2c07a8202f45e452a5002db8af1b5335b550713639d1863",
-				"dweb:/ipfs/QmUgJx1xac48cAWmdxQTJCQCzsq79FacfrVHG1pzrUEqMU"
+				"bzz-raw://3d0d24d256f75902ad90220fdde0894f39bc2d5a530ab91672cc032f3fccd324",
+				"dweb:/ipfs/QmXyL4pcV1gNvmEZHRJHpxbdDbhVWBhFF9WMwgjWp3vRhE"
 			]
 		}
 	},
