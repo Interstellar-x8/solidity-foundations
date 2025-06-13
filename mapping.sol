@@ -19,4 +19,14 @@ contract learnMapping {
         delete myMap[_addr];
     }
 
+    mapping(uint => Movie) movie;
+
+    struct Movie {
+        string title;
+        string director;
+    }
+
+    function addMovie(uint id, string memory title, string memory director) public {
+        movie[id] = Movie(title, director); 
+    }
 }

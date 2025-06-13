@@ -8,6 +8,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "director",
+						"type": "string"
+					}
+				],
+				"name": "addMovie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "_addr",
 						"type": "address"
@@ -103,10 +126,10 @@
 	},
 	"sources": {
 		"mapping.sol": {
-			"keccak256": "0x912cd0060f4288b4e9df7c0d4c15f180247f8cb259f3e49dfa732adb3f76f168",
+			"keccak256": "0xc33b9e10b106e08c5cc747c62e03bee4ebcb876ff0b73d6a20f215b9c039261d",
 			"urls": [
-				"bzz-raw://fcee088e720917eb424b734de69cf9af2db1e4489cfd138cbf96978211a67a85",
-				"dweb:/ipfs/QmaiznqW2XS99Kaz92d52DH4v21185P7paWfUw9PqZi5EC"
+				"bzz-raw://c049ff29ffa418aa0e453a1226fae4bb5c40cbe44269fbb47d314250748913b5",
+				"dweb:/ipfs/QmUAmqsmSW4YFC53ckpBbeDu2eqjJvj7nePG2mkStXYj5S"
 			]
 		}
 	},
