@@ -13,7 +13,8 @@ contract learnStructs {
     Movie movie; 
 
     function setMovie() public {
-        movie = Movie('Blade Runner', 'Ridley Scott', 1);
+        movie = Movie('Interstellar', 'Christopher Nolan', 1);
+    
     }
 
     function getMovieId() public view returns(uint) {
