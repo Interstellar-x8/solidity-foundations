@@ -54,10 +54,10 @@
 	},
 	"sources": {
 		"structs.sol": {
-			"keccak256": "0x89d2674d27a1a36c8e3d3a799a5520d2dd9c5d8be5652562d33f177be6e40991",
+			"keccak256": "0x3042cc67a5d0c83afd72ad4841ff882286bfe65eac5ab139433d206cecfbc896",
 			"urls": [
-				"bzz-raw://5bdb8de57204766de102d839b2aa8449d81da7dcc0373613d32c1072ea8cbb6f",
-				"dweb:/ipfs/QmRjBEtbmNdRUUFV4QZoHpno8nCkibDfHQ596tZPVxPKJZ"
+				"bzz-raw://8cadfe7685f327f36a165b95f291960235c572a3477e2893edc6303a2c47ca2a",
+				"dweb:/ipfs/QmRyeTRLBwyEETP8gL2zTUe553vFx2heGGWacunvdpuP1i"
 			]
 		}
 	},

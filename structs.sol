@@ -20,4 +20,5 @@ contract learnStructs {
     function getMovieId() public view returns(uint) {
         return movie.movie_id;
     }
+    
 }
