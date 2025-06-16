@@ -23,3 +23,22 @@ contract Updated {
         ledgerBalance.updatesBalance(30);
     }
 }
+
+// Other Global Variables Examples:
+
+contract SimpleStorage {
+    uint storedData;
+
+    function set(uint x) public {
+        // storedData = x;
+        storedData = block.difficulty;
+    }
+
+    function get() public view returns (uint) {
+        return storedData;
+    }
+
+        // Ex: another global variable.
+        // storedData = block.timestamp;
+
+}
