@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "exercise",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"etherUnits.sol": "etherUnits"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"etherUnits.sol": {
+			"keccak256": "0xbb4cc4c7894a6d6be1a0c7f49049470c79c71e9a650bdfb72c5d60c2313673f2",
+			"urls": [
+				"bzz-raw://c56e15e1a169d8ea0eeb5ab4eeb6a70ef0f9f334d3713b4bbd97078f06b2292e",
+				"dweb:/ipfs/QmZPLQXR57eyrnUZHtM6vvMGL9xMwFmXh19J9fJqQwv8xy"
+			]
+		}
+	},
+	"version": 1
+}
