@@ -24,5 +24,13 @@ function setValue(uint _value) external {
     value = _value;
 }
 
+function multiply() external pure returns(uint) {
+    return 3 * 7;
+}
+
+function valuePlusThree() external  view returns(uint) {
+    value + 3;
+}
+
 
 }

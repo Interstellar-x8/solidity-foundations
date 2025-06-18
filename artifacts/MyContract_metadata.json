@@ -32,6 +32,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -42,6 +55,19 @@
 				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valuePlusThree",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -73,10 +99,10 @@
 	},
 	"sources": {
 		"viewPureConstantModifiers.sol": {
-			"keccak256": "0x130ce124a407ccf844d7a279027d51f1a2d7b9e3c8081b18db55d53890b15cf9",
+			"keccak256": "0x84bd95f380002b5f56719d6678c7d536dcaf1a0e2ed228ebe00c064d2043798b",
 			"urls": [
-				"bzz-raw://8bb7afadbc8c74e99eb1f88069fb27daeab473273d56b615271843830ef0404c",
-				"dweb:/ipfs/QmWhqpP2QkuShpz6M333KEWznUCe7PorCaow1AH4WED9ib"
+				"bzz-raw://ffb7eb926fe6e05eeb0dbc09fe65d272a1aa98cb55495c6ec48cfa5b9ac93ed8",
+				"dweb:/ipfs/QmZdFwsgAhFfCzgQ2pVJiPug83JvoDUaLBoTLa3Fy9D6Me"
 			]
 		}
 	},
