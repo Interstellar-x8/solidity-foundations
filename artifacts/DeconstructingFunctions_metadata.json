@@ -43,6 +43,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "g",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "tom",
 				"outputs": [
 					{
@@ -83,11 +90,11 @@
 	},
 	"sources": {
 		"owner.sol": {
-			"keccak256": "0xf4ff837562fd7722d71ff28eaf70755f978546fce142a65780d581b5e4ca8d20",
+			"keccak256": "0x61992b13e4073df22e17100cd7ea895f913c4782f46abb1ab2f75b13c52f6e9d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://200383616607bd722d1f216b750986647b917a163187788059ef7ac89cfea389",
-				"dweb:/ipfs/QmakjmFhNBUHMWmex9SzcFCc4WmkYxwEwbJ4srobWZRaqu"
+				"bzz-raw://75acca702fefb80a55bfb700af171f4a7d4c30c56770bab1aeb85ba482c29f68",
+				"dweb:/ipfs/QmbMyThFeyapV5LhmVfFkTih31aownVcScHmPdVYrB766R"
 			]
 		}
 	},

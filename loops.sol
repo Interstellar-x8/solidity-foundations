@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 < 0.9.0;
 
 // A "For" Loop is used to repeat a specific block of code a KNOWN number of times.

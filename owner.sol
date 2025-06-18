@@ -17,6 +17,10 @@ contract DeconstructingFunctions {
     function f() public pure returns(uint, bool, string memory) {
         return (3, true, 'Goodbye!');
     }
+
+    function g() public {
+        (changeValue ,,) = f();
+    }
 }
 
 

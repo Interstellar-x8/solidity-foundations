@@ -67,10 +67,11 @@
 	},
 	"sources": {
 		"enums.sol": {
-			"keccak256": "0x3aa8912e602c246b51318599b4f49b4f4bc5129edb96843af6f04824678034c6",
+			"keccak256": "0x6476caf1ecde5183d0e2957fc040f6ac5c5057d50de0605bdee69bb933cbcded",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3d0d24d256f75902ad90220fdde0894f39bc2d5a530ab91672cc032f3fccd324",
-				"dweb:/ipfs/QmXyL4pcV1gNvmEZHRJHpxbdDbhVWBhFF9WMwgjWp3vRhE"
+				"bzz-raw://c04fa1fb3e3466fa4cb316f0d6a3b11882295a40f76c7b79703c0f50903bd7ce",
+				"dweb:/ipfs/QmYwcKtXJGZiCx3rCSTKpC5zfG9WjjuE9z1f7izgnadmZm"
 			]
 		}
 	},

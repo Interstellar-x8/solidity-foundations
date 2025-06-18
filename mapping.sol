@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 < 0.9.0;
 
 // Mapping is a reference type as arrays and structs. Following is the syntax to declare a mapping type.
