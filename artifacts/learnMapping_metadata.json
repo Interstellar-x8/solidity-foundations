@@ -178,10 +178,11 @@
 	},
 	"sources": {
 		"mapping.sol": {
-			"keccak256": "0xc160ecfe38c42e5eab6f8b84d79b3a442b128d4c49b6be6475cfe095d45be2fe",
+			"keccak256": "0xd500957e6dfb68e66b8b5bf4ee72f7fe72c2e03452134e796fda4595302dd4bf",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5a11ab3d10880ea077f31b148133c0313302fca8636ef68d6a3f29baa52a0478",
-				"dweb:/ipfs/QmPwdeBYr5ozbB8QpYcCydXFGFszzDK5tFvt3nB5JaNVDe"
+				"bzz-raw://d1df855f5551b98e13f0097abea0744a64d318cda800fb30d10335b00019ed2c",
+				"dweb:/ipfs/QmZVDivBLLH8y3N6fhvyx8HefQSba2vH7JesThnM7KPQec"
 			]
 		}
 	},
