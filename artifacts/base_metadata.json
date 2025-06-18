@@ -45,10 +45,11 @@
 	},
 	"sources": {
 		"constructors.sol": {
-			"keccak256": "0x0123d240e18a6293c64cf81c715aac3e5736a24ce29827668f42e05f0210008f",
+			"keccak256": "0xb3b729eb3762739889bfdf91d154b96786de5af003b75085328b3edb88bc7086",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c865ef70461eb97d203898e018edaf87f4d0680bebdec5acbe6530466f075c4d",
-				"dweb:/ipfs/QmeXtxKqyvpVgVQjy9MzEveTLit8sBrZUi8wwFEqyxDpHa"
+				"bzz-raw://8d2958c892d9463a1f21cb8df49804649899344d4e1853d9e073b99f09316812",
+				"dweb:/ipfs/QmPcyVBafnkdqmKEvnugEZsKZwjteAynnjpkyPL1CtL49g"
 			]
 		}
 	},

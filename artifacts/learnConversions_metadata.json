@@ -33,10 +33,11 @@
 	},
 	"sources": {
 		"conversions.sol": {
-			"keccak256": "0x0079d1fe7c1ef0d83011e9352b615795841b8bc65d74d869467e66d7e6ffdfcd",
+			"keccak256": "0xb04213bca3fae2482cb882586dbc22c68e263ec877bd2b90d4a73af00255641b",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7f87fe5bb985bd1ca00cbf8299c304d08197b46118a35fdbd16e8c64962cb8da",
-				"dweb:/ipfs/QmX24yrTwfmCphwaGoJ9uP8J3ywns4GKi4XW5AhZd8MKsy"
+				"bzz-raw://2c56160c3c689244d9eef951c9db893e71c51f07ea12ae97513d2fa872061a95",
+				"dweb:/ipfs/QmdnfxoXCzXHTnTjgRpZRyv8mEonxPgYL2zYFgCCXmp9Ki"
 			]
 		}
 	},

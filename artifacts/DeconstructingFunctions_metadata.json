@@ -6,24 +6,44 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "n",
-						"type": "string"
-					},
+				"inputs": [],
+				"name": "changeValue",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getName",
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tom",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -48,7 +68,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructors.sol": "teacher"
+			"owner.sol": "DeconstructingFunctions"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -62,12 +82,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"constructors.sol": {
-			"keccak256": "0xb3b729eb3762739889bfdf91d154b96786de5af003b75085328b3edb88bc7086",
+		"owner.sol": {
+			"keccak256": "0xf4ff837562fd7722d71ff28eaf70755f978546fce142a65780d581b5e4ca8d20",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8d2958c892d9463a1f21cb8df49804649899344d4e1853d9e073b99f09316812",
-				"dweb:/ipfs/QmPcyVBafnkdqmKEvnugEZsKZwjteAynnjpkyPL1CtL49g"
+				"bzz-raw://200383616607bd722d1f216b750986647b917a163187788059ef7ac89cfea389",
+				"dweb:/ipfs/QmakjmFhNBUHMWmex9SzcFCc4WmkYxwEwbJ4srobWZRaqu"
 			]
 		}
 	},

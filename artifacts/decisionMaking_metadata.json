@@ -47,10 +47,11 @@
 	},
 	"sources": {
 		"decisionMaking.sol": {
-			"keccak256": "0x7f0b04e473b29112482a4751e5aa07cd8f8ef005c2716708d4ab9b595f6d9fe1",
+			"keccak256": "0x287c60e6938220dd0c80bf86d560a1a4dc965e88f642180e028e31cd7660ead1",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://61a310d9670eca767745aef995b2d843d5cee60139af736dd2d8b8b29a9d3b05",
-				"dweb:/ipfs/QmdPHtFXhPPmLU3RC65f6K6QJeYdFs4DuJtjZZ68VX61Nk"
+				"bzz-raw://4b1a3ee5a961af42365300c2fa5e22468c0cc305d2e78797bd580025c2ef273b",
+				"dweb:/ipfs/QmbJteN9QocYuZmtXnWBkaXe5R4jha5kkfWm17Smx3Vrez"
 			]
 		}
 	},
