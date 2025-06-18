@@ -3,6 +3,7 @@ pragma solidity >=0.7.0 <0.9.0;
 // function modifiers are used to modify the behaviors of a function.
 // function modifiers are customizable modifications for functions.
 
+
 contract Owner {
 
     address owner;
@@ -18,6 +19,12 @@ contract Owner {
     require(msg.sender == owner);
     _; 
     // the underscore continues with the function.
+    }
+
+    modifier costs(uint price) {
+    // what is msg.value: amount in wei being sent with a message to a contract
+        require(msg.value >= price);
+        _;
     }
 
 }
@@ -41,6 +48,5 @@ contract Register is Owner {
     function changePrice(uint _price) public onlyOwner {
         price = _price;
     }
-
 
 }
