@@ -75,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"owner.sol": "DeconstructingFunctions"
+			"deconstructingFunctions.sol": "DeconstructingFunctions"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -89,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"owner.sol": {
-			"keccak256": "0x61992b13e4073df22e17100cd7ea895f913c4782f46abb1ab2f75b13c52f6e9d",
+		"deconstructingFunctions.sol": {
+			"keccak256": "0x1a0b2e7edbe638e38d669116bca20bdf32d061397a77f3b5621ac9bc89277fc6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://75acca702fefb80a55bfb700af171f4a7d4c30c56770bab1aeb85ba482c29f68",
-				"dweb:/ipfs/QmbMyThFeyapV5LhmVfFkTih31aownVcScHmPdVYrB766R"
+				"bzz-raw://5a20c5b275720cef56ce17980b5fc4234dd60b6917d71fac7f1fdc7359dd31be",
+				"dweb:/ipfs/QmaYo5swCXJ4TyQ2TQGrxTDfz6qWheeFifeuzT36P2uEGF"
 			]
 		}
 	},

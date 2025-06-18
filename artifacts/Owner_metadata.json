@@ -39,10 +39,11 @@
 	},
 	"sources": {
 		"functionModifiers.sol": {
-			"keccak256": "0xcc445977e5f05ab497561a57f933260c9fcef77826b98398cb5d0deccec961e1",
+			"keccak256": "0x3109327f2e48422fc530eb20b18d1f3b5ae57cea1574c19b8f1c088a7b7fa284",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d2a7fe688d687eb4d9304c78084021096af14eb1d4a5a71f3c5e62049fe8ab5d",
-				"dweb:/ipfs/QmPrSj69pgH9UYVTJgb3V8J2HBGS13G5iveRcLk61UkK4n"
+				"bzz-raw://15f7ba443326b2d872fa9846c063a1d6f3e07734915846a82eee392971487edf",
+				"dweb:/ipfs/QmcDzys4FgDMLLoUnQZtWmQMj7d67xxKKkStBcC9XQeoWP"
 			]
 		}
 	},

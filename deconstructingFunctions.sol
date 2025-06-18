@@ -19,7 +19,7 @@ contract DeconstructingFunctions {
     }
 
     function g() public {
-        (changeValue ,,) = f();
+        (changeValue, ,tom) = f();
     }
 }
 

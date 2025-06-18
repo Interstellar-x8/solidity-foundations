@@ -6,34 +6,33 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "initialPrice",
+						"name": "gas",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "Log",
+				"type": "event"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_price",
-						"type": "uint256"
-					}
-				],
-				"name": "changePrice",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
-				"name": "register",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -50,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"functionModifiers.sol": "Register"
+			"fallbackFunctions.sol": "FallBack"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -64,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"functionModifiers.sol": {
-			"keccak256": "0x3109327f2e48422fc530eb20b18d1f3b5ae57cea1574c19b8f1c088a7b7fa284",
+		"fallbackFunctions.sol": {
+			"keccak256": "0x976a0d0926175b53ae3510cd4732ba82df0e210b240774a23b414e5d5f367f05",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://15f7ba443326b2d872fa9846c063a1d6f3e07734915846a82eee392971487edf",
-				"dweb:/ipfs/QmcDzys4FgDMLLoUnQZtWmQMj7d67xxKKkStBcC9XQeoWP"
+				"bzz-raw://c2fb2f7dfbe3dbab24e563632c111457e5cb7e9fde5f82a2001ae822bf637beb",
+				"dweb:/ipfs/QmRjUTDHAcdYrciMeFgXKF4yG93p9WjFgQU86npFszPLUP"
 			]
 		}
 	},
