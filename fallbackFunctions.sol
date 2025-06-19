@@ -24,6 +24,16 @@ contract FallBack {
     }
 }
 
+contract SendToFallBack {
+    function transferToFallBack(address payable _to) public payable {
+        _to.transfer(msg.value);
+    }
 
+    function callFallBack(address payable _to) public payable {
+        // send ether with the call method
+        (bool sent,) = _to.call{value:msg.value}('');
+        require(sent, 'Failed to send!');
+    }
+}
 
 
