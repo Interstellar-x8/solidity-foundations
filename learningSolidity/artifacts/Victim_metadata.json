@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isItAContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/withdrawalPattern.sol": "Victim"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/withdrawalPattern.sol": {
+			"keccak256": "0x5e0942424c03f7f6a8146fb94f4b1d77859b05ad25f7b04107b4faefb1a72706",
+			"urls": [
+				"bzz-raw://368d1299d62c7166c33a0f8680a2bd61ae5dc46d988c558ff3686004c7a42b5b",
+				"dweb:/ipfs/QmQxGRmkym5wPLLxAav7cSbWBDSyZ4rb4tpjGaBuFiHyCZ"
+			]
+		}
+	},
+	"version": 1
+}
