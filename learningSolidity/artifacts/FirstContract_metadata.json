@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/advancedInheritance.sol": "FirstContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/advancedInheritance.sol": {
+			"keccak256": "0x247120c4a283756db12229e00960447dda8b9f16ab5561dba4b7c904f692f40f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://17e210b07f8142ae8854225e55c5cd94aff8ebe2dd4cda595872e5557efa7ae4",
+				"dweb:/ipfs/Qmb3R6tgcoi8MyDxmQkX5P13BFiviTcARSNni2o2FETuv1"
+			]
+		}
+	},
+	"version": 1
+}

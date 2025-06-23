@@ -6,34 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "data",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "val",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "l",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "x",
+				"name": "innerAddTen",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -42,19 +22,6 @@
 					}
 				],
 				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "y",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learningSolidity/advancedContracts.sol": "A"
+			"learningSolidity/advancedInheritance.sol": "A"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learningSolidity/advancedContracts.sol": {
-			"keccak256": "0x6804e791c350915a60344031ecd8f38e9a5b8b37a1dcba6672992e08ce3332ef",
+		"learningSolidity/advancedInheritance.sol": {
+			"keccak256": "0xebda23bc760a93de508865086a0fcf04a0ee9964e90e4d3c8967c23f67b75b75",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bf0d042b98f662e084f7312ef8e2dbcaca30a6ab449a5a502ccc7f28c481d13a",
-				"dweb:/ipfs/QmexTvdhEom391h9EVwcENMw1zBRpzG4fXmshvtk31aaDE"
+				"bzz-raw://654620e3b2908eddfe73fa3b2ac24810ef97b2ca101928b6e6bc8f27be2be5d6",
+				"dweb:/ipfs/QmbUkd6uWaeRpHMCnJq4xKxt4X5gaTUrBTSTDD29Tso3ep"
 			]
 		}
 	},
