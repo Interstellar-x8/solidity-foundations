@@ -39,7 +39,14 @@ contract RestrictedAccess {
         delete owner;
     }
 
+    modifier costs(uint _amount) {
+        require(msg.value >= _amount, 'Not enough Ether provided');
+        _;
+    }
 
+    function forceOwnerChange(address _newOwner) payable public costs(200 ether) {
+        owner = _newOwner;
+    }
 
 
 

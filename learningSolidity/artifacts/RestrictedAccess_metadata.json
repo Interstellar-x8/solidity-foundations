@@ -39,6 +39,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "forceOwnerChange",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "owner",
 				"outputs": [
@@ -80,11 +93,11 @@
 	},
 	"sources": {
 		"learningSolidity/restrictedAccessPattern.sol": {
-			"keccak256": "0xb3e1466019214efcca5e9bc783f765d87f8e9d789a5e5140abb2762dc6f0c212",
+			"keccak256": "0x9e7c5f01966ce1879f7da7a0959b62459608519e1dbc934c8eefdf24e54f33af",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4b84f08e03248bc9c4b39e281e7d13b61eaab351d28ee085bd6444486e3041ed",
-				"dweb:/ipfs/QmW5w587D4fGtZjCV6ziswd1pA9JR8fs1k6Y1YSYM42B9o"
+				"bzz-raw://b296e724837cbb40ae9c139292c84fce4a06d69814aef245876be08652b80677",
+				"dweb:/ipfs/QmW6Yq9XBw9pXCdbSFUkyzTdxbKuKi4Gvi9kfbwHh454XJ"
 			]
 		}
 	},
