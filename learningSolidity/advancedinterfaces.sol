@@ -39,3 +39,4 @@ contract MyContract {
         return ICounter(_counter).count();
     }
 }
+

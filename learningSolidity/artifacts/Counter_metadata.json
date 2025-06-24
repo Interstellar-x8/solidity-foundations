@@ -54,11 +54,11 @@
 	},
 	"sources": {
 		"learningSolidity/advancedinterfaces.sol": {
-			"keccak256": "0x0857ce42aaee573c9e7436f8592d6871ea5c5b51116884f0225e3a6faecbecae",
+			"keccak256": "0xc76c7bf2cb1b5da514788fa5629cabfafb51668cebb65e02890e7aad478b364c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://aa2669d8d0905d006dd5c9393e571654b3661ff3fbd4843c626f22063d1402d9",
-				"dweb:/ipfs/QmRuwYTiuDUPDwZvmf5gBH85ryBXjsZFLKEBoNxz34sa94"
+				"bzz-raw://0fce8c321d50e0b7689b68718c03ac372d16758351d1e6a634bd3e6c41c11bdf",
+				"dweb:/ipfs/QmTJHdtEvQFMobt9B2rLMoqWATPSTB6CEpQYA4hxcr4p58"
 			]
 		}
 	},
