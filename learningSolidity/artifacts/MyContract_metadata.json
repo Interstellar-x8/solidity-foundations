@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_counter",
+						"type": "address"
+					}
+				],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_counter",
+						"type": "address"
+					}
+				],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/advancedinterfaces.sol": "MyContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/advancedinterfaces.sol": {
+			"keccak256": "0x0857ce42aaee573c9e7436f8592d6871ea5c5b51116884f0225e3a6faecbecae",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://aa2669d8d0905d006dd5c9393e571654b3661ff3fbd4843c626f22063d1402d9",
+				"dweb:/ipfs/QmRuwYTiuDUPDwZvmf5gBH85ryBXjsZFLKEBoNxz34sa94"
+			]
+		}
+	},
+	"version": 1
+}
