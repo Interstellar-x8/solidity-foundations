@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/abstractContracts.sol": "Calcluator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/abstractContracts.sol": {
+			"keccak256": "0xa539f3f92f82a7e8a5ec296a75cab28b20a5647d13550b811ceef0773835b3b3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1b03a56dd4576cb0b8f454572f785d432a6f5be2549df1bb08f270c9a29a3d23",
+				"dweb:/ipfs/QmdbVGNEiFC2njy4rtb7CFyHB3N9hSJU536Qx7D5cEojpL"
+			]
+		}
+	},
+	"version": 1
+}
