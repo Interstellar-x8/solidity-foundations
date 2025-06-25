@@ -7,16 +7,29 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addToEVM",
+				"name": "solarCalc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "addtoEVM3",
-				"outputs": [],
+				"name": "sunny",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "weatherChanger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -33,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learningSolidity/advancedAssembly.sol": "LearnAssembly"
+			"learningSolidity/advancedErrorHandling.sol": "LearnErrorHandling"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -47,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learningSolidity/advancedAssembly.sol": {
-			"keccak256": "0xc0783d6dcaec8f4c7e44d8eeaddb46080ba170491fcbb7e3abbf7c50dd838d39",
+		"learningSolidity/advancedErrorHandling.sol": {
+			"keccak256": "0x767a1ad88f6242d1ac425e77ef9744030eaf8d43fa313437888f29396176bde9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5c646a8e899d319fa27d33fdf188cbc8573b4aeefc8885eea427a44dc7f40890",
-				"dweb:/ipfs/QmNs5jWFohSY7doSXpwC3ymFHVvJByZrVZhsxXdf78VKp5"
+				"bzz-raw://fcc305e2c2effd07aa0abf094c00449420cfc4b3c653acc7f88bf059d9aef220",
+				"dweb:/ipfs/QmeKrFQPMR8n9u3WyjD9PFRWhGigoPEayzG5sg2k388RL2"
 			]
 		}
 	},

@@ -37,4 +37,9 @@ contract LearnAssembly {
 
     }
 
+    function addtoEVM3() external view {
+        bytes memory data = new bytes(10);
+    }
+
+
 }
