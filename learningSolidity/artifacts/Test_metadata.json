@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"learningSolidity/advancedLibraries.sol": {
-			"keccak256": "0xaa7f2fc656b86b6d63edaf46fdfcd0e46eefd6b38e392597e414385b8521b6be",
+			"keccak256": "0xdaf0a4afca344da9aecbeaacc2782058b7f15ec8238662c90f7a958889e723a2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d4d383caffe87e91d1ebd996109c904f48f535eafd6d95c9362900dab8d0f31e",
-				"dweb:/ipfs/QmSpAQLF6nbJbbrKeQqC6MHYJfu9VJWNCRj2izoqELrNpU"
+				"bzz-raw://1f6722af20fe925f2cf8c9189bf30c7e8a44561b88f5e63b4002a5aa088b80a4",
+				"dweb:/ipfs/QmePJNs23ayei9xVfrKsqQ4s1JAfPwVEiYPxRT2CNdpoTa"
 			]
 		}
 	},

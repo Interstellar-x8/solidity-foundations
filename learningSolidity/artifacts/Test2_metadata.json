@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isValuePresent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/advancedLibraries.sol": "Test2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/advancedLibraries.sol": {
+			"keccak256": "0xdaf0a4afca344da9aecbeaacc2782058b7f15ec8238662c90f7a958889e723a2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1f6722af20fe925f2cf8c9189bf30c7e8a44561b88f5e63b4002a5aa088b80a4",
+				"dweb:/ipfs/QmePJNs23ayei9xVfrKsqQ4s1JAfPwVEiYPxRT2CNdpoTa"
+			]
+		}
+	},
+	"version": 1
+}
