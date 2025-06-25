@@ -7,7 +7,18 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getResult",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "isValuePresent",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learningSolidity/abstractContracts.sol": "Test"
+			"learningSolidity/advancedLibraries.sol": "Test"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -46,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learningSolidity/abstractContracts.sol": {
-			"keccak256": "0x7c9267492c2a909d4cf0e7003a130d26fcc67de09d867e41f7654c3c51e0c02d",
+		"learningSolidity/advancedLibraries.sol": {
+			"keccak256": "0xaa7f2fc656b86b6d63edaf46fdfcd0e46eefd6b38e392597e414385b8521b6be",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a0b94541d32770f1ffbaaf624d0fc600a7006d2db78896312c64d30e536ccbb4",
-				"dweb:/ipfs/Qmc4PG4w2fWLH9bUCUHhvpRTxJsubarrpHRv9h7SLLWCVU"
+				"bzz-raw://d4d383caffe87e91d1ebd996109c904f48f535eafd6d95c9362900dab8d0f31e",
+				"dweb:/ipfs/QmSpAQLF6nbJbbrKeQqC6MHYJfu9VJWNCRj2izoqELrNpU"
 			]
 		}
 	},
