@@ -1,0 +1,80 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50607e80601a5f395ff3fe6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063dadf8fee14602a575b5f5ffd5b60306032565b005b5f5f80820160405160048152606481555050505056fea2646970667358221220a9b271ac6c42e659a65e55af7c872289d51c67e9aef56b4974f300e7999ac48c64736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x7E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xDADF8FEE EQ PUSH1 0x2A JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH1 0x30 PUSH1 0x32 JUMP JUMPDEST STOP JUMPDEST PUSH0 PUSH0 DUP1 DUP3 ADD PUSH1 0x40 MLOAD PUSH1 0x4 DUP2 MSTORE PUSH1 0x64 DUP2 SSTORE POP POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA9 0xB2 PUSH18 0xAC6C42E659A65E55AF7C872289D51C67E9AE CREATE2 PUSH12 0x4974F300E7999AC48C64736F PUSH13 0x634300081E0033000000000000 ",
+			"sourceMap": "395:608:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@addToEVM_12": {
+					"entryPoint": 50,
+					"id": 12,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50600436106026575f3560e01c8063dadf8fee14602a575b5f5ffd5b60306032565b005b5f5f80820160405160048152606481555050505056fea2646970667358221220a9b271ac6c42e659a65e55af7c872289d51c67e9aef56b4974f300e7999ac48c64736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xDADF8FEE EQ PUSH1 0x2A JUMPI JUMPDEST PUSH0 PUSH0 REVERT JUMPDEST PUSH1 0x30 PUSH1 0x32 JUMP JUMPDEST STOP JUMPDEST PUSH0 PUSH0 DUP1 DUP3 ADD PUSH1 0x40 MLOAD PUSH1 0x4 DUP2 MSTORE PUSH1 0x64 DUP2 SSTORE POP POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA9 0xB2 PUSH18 0xAC6C42E659A65E55AF7C872289D51C67E9AE CREATE2 PUSH12 0x4974F300E7999AC48C64736F PUSH13 0x634300081E0033000000000000 ",
+			"sourceMap": "395:608:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;424:576;;;:::i;:::-;;;463:6;479;726:1;724;720:8;853:4;847:11;926:1;924;917:11;978:3;976:1;969:13;527:466;;;;424:576::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "25200",
+				"executionCost": "73",
+				"totalCost": "25273"
+			},
+			"external": {
+				"addToEVM()": "22269"
+			}
+		},
+		"methodIdentifiers": {
+			"addToEVM()": "dadf8fee"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"name": "addToEVM",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

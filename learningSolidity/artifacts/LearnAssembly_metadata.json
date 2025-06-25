@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addToEVM",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learningSolidity/advancedAssembly.sol": "LearnAssembly"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learningSolidity/advancedAssembly.sol": {
+			"keccak256": "0x0ae6708a1ecbf2128c3d642911496824234bd6add0401f88281e58d9f4bbaac7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be8a14b6067a057b9ba5a531df73f1898d629030137cce2c8864306f448efe02",
+				"dweb:/ipfs/QmTkbVAiNXjC9QJY4K6A2undYC7VUP9YZSzBenmUUopcDg"
+			]
+		}
+	},
+	"version": 1
+}
