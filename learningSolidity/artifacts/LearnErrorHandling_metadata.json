@@ -7,6 +7,26 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "bringUmbrella",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCalc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "solarCalc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -15,6 +35,19 @@
 			{
 				"inputs": [],
 				"name": "sunny",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "umbrella",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -61,11 +94,11 @@
 	},
 	"sources": {
 		"learningSolidity/advancedErrorHandling.sol": {
-			"keccak256": "0x767a1ad88f6242d1ac425e77ef9744030eaf8d43fa313437888f29396176bde9",
+			"keccak256": "0x30e29572d4dbf6f891426e719d624e543d0a3b163325ef8d26a760a2153cb14a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fcc305e2c2effd07aa0abf094c00449420cfc4b3c653acc7f88bf059d9aef220",
-				"dweb:/ipfs/QmeKrFQPMR8n9u3WyjD9PFRWhGigoPEayzG5sg2k388RL2"
+				"bzz-raw://90a0ac8a14918a17c550c58beae9cd06d8f3c268a49d339e9ee3026e22d7c17f",
+				"dweb:/ipfs/Qma24w2FATbgxZ1576mQad3C2Vjh66YpFR5WNQE96i97HJ"
 			]
 		}
 	},
