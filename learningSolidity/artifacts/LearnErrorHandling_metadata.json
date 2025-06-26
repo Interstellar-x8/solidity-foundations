@@ -27,6 +27,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "internalTestingUnits",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "solarCalc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -94,11 +101,11 @@
 	},
 	"sources": {
 		"learningSolidity/advancedErrorHandling.sol": {
-			"keccak256": "0x30e29572d4dbf6f891426e719d624e543d0a3b163325ef8d26a760a2153cb14a",
+			"keccak256": "0x68bd0d84c14c340c74dbe0fdac56a8b6e76ccb623298624529bca9118c2bc473",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://90a0ac8a14918a17c550c58beae9cd06d8f3c268a49d339e9ee3026e22d7c17f",
-				"dweb:/ipfs/Qma24w2FATbgxZ1576mQad3C2Vjh66YpFR5WNQE96i97HJ"
+				"bzz-raw://d276566019e09224f94db122abf3cd99fdf9112b7a0c5279ef229dfc3dfb2d56",
+				"dweb:/ipfs/Qmad4YD3dH4xXKPLNonBXmpJMLykkkw6Twsd6HYxDutfju"
 			]
 		}
 	},

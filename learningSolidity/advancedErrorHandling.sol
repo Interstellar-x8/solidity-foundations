@@ -11,6 +11,10 @@ contract LearnErrorHandling {
         finalCalc += 3;
     }
 
+    function internalTestingUnits() public view{
+        assert(finalCalc != 6);
+    }
+
     // machine that controls the weather. 
     function weatherChanger() public {
         sunny = !sunny;
@@ -25,6 +29,27 @@ contract LearnErrorHandling {
             umbrella = true;
         } else {
         revert('No need to bring an umbrella today!');
+        }
+    }
+
+}
+
+contract Vendor {
+    address seller;
+
+    modifier onlySeller() {
+        require(msg.sender == seller, 'Only the seller can sell!');
+        _;
+    }
+
+    function becomeSeller() public {
+        seller = msg.sender;
+    }
+
+
+
+    function Sell(uint amount) payable public onlySeller {
+        if(amount > msg.value) {revert('Not enough ether!');
         }
     }
 
